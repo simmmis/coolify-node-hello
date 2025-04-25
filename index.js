@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 3080;
 
 app.get('/', (req, res) => {
-  res.send('Hello from Coolify 👋');
+  res.send('Hello from Coolify 👋 | this is automatical deployment system check');
 });
 
 app.listen(PORT, () => {
